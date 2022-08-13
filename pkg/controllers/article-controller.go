@@ -143,7 +143,7 @@ func SearchForArticle(w http.ResponseWriter, r *http.Request){
 		//send that fileData as response
 		if( strings.Contains( string(fileData) , searchText)){
 			w.Write(fileData)
-			w.Write([]byte("/n"))
+			w.Write([]byte("\n"))
 			i++
 		}
 
