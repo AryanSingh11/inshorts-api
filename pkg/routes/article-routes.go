@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"fmt"
+	//"fmt"
 
 	"github.com/AryanSingh11/inshorts-api/pkg/controllers"
 	"github.com/gorilla/mux"
@@ -11,8 +11,8 @@ import (
 var RegisterInshortsApiRoutes = func(router *mux.Router) {
 	router.HandleFunc("/articles/", controllers.GetAllArticles).Methods("GET")
 	router.HandleFunc("/articles/", controllers.CreateArticle).Methods("POST")
+	router.HandleFunc("/articles/search", controllers.SearchForArticle).Methods("GET")
 	router.HandleFunc("/articles/{id}", controllers.GetArticleById).Methods("GET")
-	router.HandleFunc("/articles/{id}", controllers.DeleteArticleById)
-	//router.HandleFunc("/articles/search?q=<search text here>")
+	router.HandleFunc("/articles/{id}", controllers.DeleteArticleById).Methods("DELETE")
 
 }
