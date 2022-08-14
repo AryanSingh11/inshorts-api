@@ -4,5 +4,5 @@ This is built using Golang and its standard packages.
 
 
 
-![Api structure](https://github.com/AryanSingh11/inshorts-api/blob/master/images/ApiDiagramV1.drawio.png?raw=true)
+![Api structure](https://github.com/AryanSingh11/inshorts-api/blob/master/images/apistructure2.png?raw=true)
 ))
