@@ -1,4 +1,14 @@
 
+
+# inshorts-api
+This is a basic version of the api of newsapp Inshorts.
+This is built using Golang and its standard packages.
+
+
+
+![Api structure](https://github.com/AryanSingh11/inshorts-api/blob/master/images/apistructure2.png?raw=true)
+
+
 ## Deployment
 
 To deploy this project:
@@ -27,13 +37,6 @@ Data will be stored locally in data folder
 ```bash
   inshorts-api/data/
 ```
-# inshorts-api
-This is a basic version of the api of newsapp Inshorts.
-This is built using Golang and its standard packages.
-
-
-
-![Api structure](https://github.com/AryanSingh11/inshorts-api/blob/master/images/apistructure2.png?raw=true)
 
 Thankyou for reading. 
 
